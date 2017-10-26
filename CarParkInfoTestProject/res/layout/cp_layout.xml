@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+ 
+ 
+ 
+ <TextView 
+        android:id="@+id/car_Park_Identity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"        
+        android:textSize="20sp"   
+         />
+ 
+   <TextView
+		android:id="@+id/Occupancy"
+
+		android:layout_width="wrap_content"
+		android:layout_height="26dip"
+
+		
+		android:layout_alignParentLeft="true"
+
+		android:textStyle="bold"
+		android:singleLine="true"
+		android:ellipsize="marquee"
+		android:layout_below="@id/car_Park_Identity"  
+   />
+  <TextView 
+        android:id="@+id/car_Park_Occupancy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_below="@id/car_Park_Identity"     
+        android:layout_toRightOf="@id/Occupancy"
+
+		android:singleLine="true"
+		android:ellipsize="marquee"
+        />
+  
+  <TextView
+		android:id="@+id/CarParkStatus"
+
+		android:layout_width="wrap_content"
+		android:layout_height="26dip"
+
+		
+		android:layout_alignParentLeft="true"
+
+		android:textStyle="bold"
+		android:singleLine="true"
+		android:ellipsize="marquee"
+		android:layout_below="@id/car_Park_Occupancy"  
+   />
+  
+  <TextView 
+        android:id="@+id/car_Park_Status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/car_Park_Occupancy"        
+        android:layout_toRightOf="@id/CarParkStatus"
+        
+        />
+   
+   <TextView
+		android:id="@+id/OccupiedSpaces"
+
+		android:layout_width="wrap_content"
+		android:layout_height="26dip"
+
+		
+		android:layout_alignParentLeft="true"
+
+		android:textStyle="bold"
+		android:singleLine="true"
+		android:ellipsize="marquee"
+		android:layout_below="@id/car_Park_Status"  
+		
+   />
+   
+   <TextView 
+        android:id="@+id/occupied_Spaces"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/car_Park_Status"        
+        android:layout_toRightOf="@id/OccupiedSpaces"
+        />
+    
+     <TextView
+		android:id="@+id/TotalCapacity"
+
+		android:layout_width="wrap_content"
+		android:layout_height="26dip"
+
+		
+		android:layout_alignParentLeft="true"
+
+		android:textStyle="bold"
+		android:singleLine="true"
+		android:ellipsize="marquee"
+		android:layout_below="@id/occupied_Spaces"  
+		/>
+   
+   <TextView 
+        android:id="@+id/total_Capacity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/occupied_Spaces"        
+        android:layout_toRightOf="@id/TotalCapacity"
+        />
+  
+</RelativeLayout>
+<!-- Mathew McGerty S1036834 -->
